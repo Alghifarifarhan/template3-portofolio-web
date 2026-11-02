@@ -1,4 +1,4 @@
-# 🚀 Dynamic Portfolio & Blog CMS (Next.js & Firebase)
+# 🚀 Dynamic Portfolio & Blog CMS Template 3 (Next.js & Firebase)
 
 Website portofolio modern, dinamis, dan responsif yang dibangun menggunakan **Next.js**, **TypeScript**, **Tailwind CSS**, dan **Google Firebase**. Dilengkapi dengan **Panel Admin Interaktif (`/admin`)** berbasis cloud untuk mengelola seluruh konten profil, portofolio proyek, artikel blog, sistem komentar, serta analitik statistik pengunjung secara _realtime_ tanpa perlu mengubah kode sumber.
 
@@ -199,39 +199,6 @@ Buka browser dan kunjungi:
 
 > 💡 **Panduan Penggunaan Admin Panel**:  
 > Silakan baca file [`README2.md`](README2.md) untuk petunjuk lengkap langkah demi langkah pengelolaan konten melalui panel admin.
-
----
-
-## 📦 Panduan Build & Deploy
-
-### Build Proyek untuk Produksi
-Untuk melakukan kompilasi dan pembuatan berkas statis:
-```bash
-npm run build
-```
-Hasil output akan berada di dalam folder `/out`.
-
-### Deploy ke Firebase Hosting
-1. Pasang Firebase CLI jika belum ada:
-   ```bash
-   npm install -g firebase-tools
-   ```
-2. Login ke akun Firebase Anda:
-   ```bash
-   firebase login
-   ```
-3. Sesuaikan target project di file `.firebaserc`:
-   ```json
-   {
-     "projects": {
-       "default": "id-proyek-firebase-anda"
-     }
-   }
-   ```
-4. Jalankan perintah deploy:
-   ```bash
-   npm run deploy
-   ```
 
 ---
 
