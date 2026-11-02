@@ -1,6 +1,6 @@
 # 📘 Panduan Singkat Penggunaan Panel Admin Website Portofolio
 
-Selamat datang! Dokumen ini berisi petunjuk sederhana dan mudah dipahami untuk mengelola seluruh isi teks, gambar, link, fitur pembersihan data contoh bawaan website, serta informasi seputar batasan kunjungan website Anda.
+Selamat datang! Dokumen ini berisi petunjuk sederhana dan mudah dipahami untuk mengelola seluruh isi teks, gambar, link, dan fitur pembersihan data contoh bawaan website.
 
 ---
 
@@ -75,18 +75,3 @@ Seluruh kotak gambar di website ini sudah dilengkapi **pemotong otomatis (_auto-
 - **Link Email**: Bisa diisi alamat email langsung (misal: `namaanda@gmail.com`) atau format `mailto:namaanda@gmail.com`.
 - **Link My Resume & My Certificate**: Tempelkan link file PDF atau link Google Drive resume/sertifikat Anda. _(Apabila link sertifikat dikosongkan, tombol sertifikat otomatis tersembunyi)_.
 - **Link Proyek & Artikel**: Tempelkan URL lengkap diawali dengan `https://` (misal: `https://github.com/username/project`).
-
----
-
-## 📈 6. Penjelasan Batasan Kunjungan Website (Firebase)
-
-Website Anda menggunakan **Google Firebase Infrastructure** dengan paket **Spark Plan**. Berikut adalah kapasitas batasan yang diberikan setiap bulannya:
-
-| Jenis Batasan                 | Kapasitas                     | Penjelasan Sederhana                                                   |
-| :---------------------------- | :---------------------------- | :--------------------------------------------------------------------- |
-| **Pengunjung Harian**         | **± 50.000 Kunjungan / Hari** | Sangat besar dan aman untuk trafik portofolio pribadi.                 |
-| **Transfer Data (Bandwidth)** | **10 GB / Bulan**             | Jumlah total unduhan data gambar & teks oleh pengunjung dalam 1 bulan. |
-| **Database Reads/Writes**     | **50.000 Pembacaan / Hari**   | Kapasitas pembaruan dan penampilan data secara realtime.               |
-
-> 🛡️ **Apakah Kuota Ini Cukup?**  
-> **Sangat Cukup!** Untuk website portofolio pribadi, kuota dari Google Firebase ini rata-rata hanya terpakai kurang dari 2-5% saja per bulan, sehingga Anda tidak perlu khawatir website akan mati atau kehabisan kuota.
